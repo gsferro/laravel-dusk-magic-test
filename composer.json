@@ -1,33 +1,45 @@
 {
-    "name": "magic-test/magic-test-laravel",
+    "name": "gsferro/laravel-dusk-magic-test",
     "description": "Use Magic Test with Laravel",
     "keywords": [
-        "mateusjatenee",
-        "magic-test-laravel"
+        "magic-test-laravel",
+        "dusk",
+        "laravel",
+        "testing",
+        "browser",
+        "magic",
+        "auto click",
+        "generate assertions",
+        "record actions"
     ],
-    "homepage": "https://github.com/magic-test/magic-test-laravel",
+    "homepage": "https://github.com/gsferro/laravel-dusk-magic-test",
     "license": "MIT",
     "authors": [
         {
             "name": "Mateus Guimarães",
             "email": "mateus.jatene@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Guilherme Ferro",
+            "email": "gsferroti@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^8.2",
         "ext-json": "*",
-        "illuminate/contracts": "^9.0|^10.0",
-        "illuminate/support": "^9.0|^10.0",
-        "laravel/dusk": "^7.0",
+        "illuminate/contracts": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "laravel/dusk": "^7.0|^8.0",
         "nikic/php-parser": "^4.10.3",
         "psy/psysh": "^0.11",
         "spatie/backtrace": "^1.1",
         "spatie/laravel-package-tools": "^1.1"
     },
     "require-dev": {
-        "orchestra/testbench": "^7.0|^8.0",
-        "phpunit/phpunit": "^9.3|^10.0",
+        "orchestra/testbench": "^7.0|^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^9.3|^10.0|^11.0",
         "vimeo/psalm": "^4.6|^5.6"
     },
     "autoload": {
